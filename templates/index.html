@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>covid-pe-api</title>
+</head>
+<body>
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th scope="col">url</th>
+        <th scope="col">propriedade</th>
+        <th scope="col">descrição</th>
+        <th scope="col">tipo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>/confirmados</td>
+        <td><code>.confirmados</code></td>
+        <td>casos de covid-19 confirmados nesta data</td>
+        <td>inteiros</td>
+      </tr>
+      <tr>
+        <td>/obitos</td>
+        <td><code>.obitos</code></td>
+        <td>casos de óbito por covid-19 nesta data</td>
+        <td>inteiros</td>
+      </tr>
+      <tr>
+        <td>/tx_obitos</td>
+        <td><code>.tx_obitos</code></td>
+        <td>óbitos do dia / confirmados do dia</td>
+        <td>decimal</td>
+      </tr>
+      <tr>
+        <td>/recuperados</td>
+        <td><code>.recuperados</code></td>
+        <td>recuperados do dia / confirmados do dia</td>
+        <td>inteiros</td>
+      </tr>
+      <tr>
+        <td>/tx_recuperados</td>
+        <td><code>.tx_recuperados</code></td>
+        <td>casos de pacientes com alta (exceto por óbito) nesta data</td>
+        <td>inteiros</td>
+      </tr>
+      <tr>
+        <td>/isolamento</td>
+        <td><code>.isolamento</code></td>
+        <td>quantidade de pessoas com covid-19 em seu domicílio</td>
+        <td>inteiros</td>
+      </tr>
+      <tr>
+        <td>/tx_isolamento</td>
+        <td><code>.tx_isolamento</code></td>
+        <td><text style="color:red">sem descrição oficial</text></td>
+        <td>decimal</td>
+      </tr>
+      <tr>
+        <td>/enfermaria</td>
+        <td><code>.enfermaria</code></td>
+        <td>quantidade de pessoas com covid-19 em leito tipo enfermaria</td>
+        <td>inteiros</td>
+      </tr>
+      <tr>
+        <td>/leitos_enf</td>
+        <td><code>.leitos_enf</code></td>
+        <td><text style="color:red">sem descrição oficial</text></td>
+        <td>inteiros</td>
+      </tr>
+      <tr>
+        <td>/tx_oc_enf</td>
+        <td><code>.tx_oc_enf</code></td>
+        <td><text style="color:red">sem descrição oficial</text></td>
+        <td>decimal</td>
+      </tr>
+      <tr>
+        <td>/tx_enfermaria</td>
+        <td><code>.tx_enfermaria</code></td>
+        <td><text style="color:red">sem descrição oficial</text></td>
+        <td>decimal</td>
+      </tr>
+      <tr>
+        <td>/uti</td>
+        <td><code>.uti</code></td>
+        <td>quantidade de pessoas com covid-19 em leito tipo uti</td>
+        <td>inteiros</td>
+      </tr>
+      <tr>
+        <td>/leitos_uti</td>
+        <td><code>.leitos_uti</code></td>
+        <td><text style="color:red">sem descrição oficial</text></td>
+        <td>inteiros</td>
+      </tr>
+      <tr>
+        <td>/tx_uti</td>
+        <td><code>.tx_uti</code></td>
+        <td><text style="color:red">sem descrição oficial</text></td>
+        <td>decimal</td>
+      </tr>
+      <tr>
+        <td>/tx_oc_uti</td>
+        <td><code>.tx_oc_uti</code></td>
+        <td><text style="color:red">sem descrição oficial</text></td>
+        <td>decimal</td>
+      </tr>
+      <tr>
+        <td>/testes_novos</td>
+        <td><code>.testes_novos</code></td>
+        <td><text style="color:red">sem descrição oficial</text></td>
+        <td>inteiros</td>
+      </tr>
+      <tr>
+        <td>/testes_novos</td>
+        <td><code>.testes_novos</code></td>
+        <td><text style="color:red">sem descrição oficial</text></td>
+        <td>inteiros</td>
+      </tr>
+      <tr>
+        <td>/testes_acumulados</td>
+        <td><code>.testes_acumulados</code></td>
+        <td><text style="color:red">sem descrição oficial</text></td>
+        <td>inteiros</td>
+      </tr>
+      <tr>
+        <td>/tx_testes</td>
+        <td><code>.tx_testes</code></td>
+        <td><text style="color:red">sem descrição oficial</text></td>
+        <td>decimal</td>
+      </tr>
+    </tbody>
+  </table>
+  </tr>
+</body>
+</html>

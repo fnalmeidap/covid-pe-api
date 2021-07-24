@@ -1,4 +1,5 @@
 from flask import Flask
+from flask import render_template
 from analysis import Analyzer
 
 app = Flask(__name__)
@@ -6,15 +7,15 @@ analyzer = Analyzer()
 
 @app.route("/")
 def hello():
-  return "<h1>Hello, home page</h1>"
+	return render_template("index.html")
 
 @app.route("/confirmados")
 def confirmados():
-  return analyzer.confirmados
+  	return analyzer.confirmados
 
 @app.route("/obitos")
 def obitos():
-  return analyzer.obitos
+	return analyzer.obitos
 
 @app.route("/tx_obitos")
 def tx_obitos():
