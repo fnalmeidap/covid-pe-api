@@ -8,6 +8,11 @@ This is a API that has treated data collected from the Secretaria de Planejament
 the state of Pernambuco (SEPLAG PE) at https://www.seplag.pe.gov.br/.
 
 # data
-The api routes can be found at https://covid-pe-api.herokuapp.com/
+The api routes can be found at the root https://covid-pe-api.herokuapp.com/
+
+```
+# e.g
+https://covid-pe-api.herokuapp.com/confirmados
+```
 
 > Felipe Nunes 
