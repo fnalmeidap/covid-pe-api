@@ -1,1 +1,1 @@
-# covid-per-server
+# covid-pe-server
